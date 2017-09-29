@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+body {
+  background-color: #E9EBEE;
+  font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif; }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.post {
+  margin: 0 auto;
+  padding: 12px;
+  max-width: 474px;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #FFF; }
+  .post__logo-img {
+    background-image: url("../img/beetlogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 8px;
+    display: block;
+    float: left;
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%; }
+  .post__time {
+    color: #90949c;
+    font-size: 12px;
+    letter-spacing: -0.12px;
+    line-height: 16.08px; }
+  .post__icon {
+    width: 12px;
+    height: 12px;
+    background-image: url("../img/sprite.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position-x: -51px;
+    background-position-y: -79px; }
+  .post__text {
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.38;
+    letter-spacing: 0.2px;
+    color: #1d2129; }
+    .post__text--last {
+      margin-bottom: 0; }
+  .post__link {
+    display: block;
+    color: #365899;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1.38;
+    letter-spacing: -0.12px;
+    text-decoration: none; }
+    .post__link--name {
+      padding-top: 2px;
+      font-weight: bold; }
+    .post__link--btn {
+      margin-bottom: 8px; }
+  .post__button {
+    height: 12px;
+    width: 20px;
+    display: block;
+    background-image: url("../img/sprite2.png");
+    background-position: -25px -229px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    float: right;
+    top: -20px;
+    position: relative; }
+  .post__img {
+    display: block;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; }
+  .post__info {
+    font-size: 12px;
+    color: #1D2129; }
+    .post__info-wrap {
+      padding-bottom: 8px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      border-bottom: 1px solid #d1d1d1; }
+    .post__info--wrap {
+      padding: 0 12px;
+      margin: 10px 0 0; }
+    .post__info--title {
+      margin-bottom: 5px;
+      font-family: Georgia, serif;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 22px;
+      max-height: 110px;
+      overflow: hidden;
+      transition: color .1s ease-in-out; }
+    .post__info--text {
+      line-height: 16px;
+      max-height: 80px;
+      overflow: hidden;
+      letter-spacing: -0.12px; }
+    .post__info--copyright {
+      color: #90949C;
+      padding-top: 9px;
+      font-family: 'Helvetica', 'Arial', sans-serif;
+      line-height: 1.34;
+      text-transform: uppercase; }
+  .post__social {
+    margin-right: 20px;
+    padding-left: 20px;
+    color: #4b4f56;
+    font-size: 12px;
+    line-height: 1.34;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 14px;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none; }
+    .post__social-wrap {
+      padding-top: 4px;
+      padding-bottom: 4px; }
+    .post__social--like::before {
+      content: "";
+      height: 14px;
+      width: 14px;
+      left: 0;
+      top: -1px;
+      display: inline-block;
+      position: absolute;
+      background-image: url("../img/sprite3.png");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: -34px -284px; }
+    .post__social--comment::before {
+      content: "";
+      height: 14px;
+      width: 14px;
+      left: 0;
+      top: 0px;
+      display: inline-block;
+      position: absolute;
+      background-image: url("../img/sprite3.png");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: -34px -269px; }
+    .post__social--share::before {
+      content: "";
+      height: 14px;
+      width: 14px;
+      margin: 0 6px -3px 0;
+      left: 0;
+      top: -0px;
+      display: inline-block;
+      position: absolute;
+      background-image: url("../img/sprite3.png");
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: -15px -320px; }
+
+/*# sourceMappingURL=style.css.map */
